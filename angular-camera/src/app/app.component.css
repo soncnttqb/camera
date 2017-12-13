@@ -1,0 +1,19 @@
+.container{
+    border:1px solid #c8c8c8;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+.div-photo{
+    border: 0.5px solid #c8c8c8;
+    width: 200px;
+    height: 250px;
+    margin: auto;
+}
+.text-bold{
+    font-weight: bold;
+}
+.div-content .row{
+    padding: 5px;
+}

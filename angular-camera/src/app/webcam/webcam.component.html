@@ -1,0 +1,7 @@
+<div *ngIf="IsOpen" class="text-center">
+  <ack-webcam [(ref)]="webcam" [options]="options" (success)="onCamSuccess($event)" (catch)="onCamError($event)">
+  </ack-webcam>
+  <br/>
+  <button class="btn btn-default" (click)="takePhoto()"> Take Picture </button>
+</div>
+
